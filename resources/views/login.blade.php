@@ -8,10 +8,8 @@
         
     </head>
 <body>
-    <Center><h1>Tspark Management</h1></Center>
-    
-
-    <form action="{{ route('login') }}" class="login-form" method="POST">
+   
+    <form action="/login" class="login-form" method="POST">
         @csrf
         <h1>Staff Login</h1>
         
