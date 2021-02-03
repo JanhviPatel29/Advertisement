@@ -9,7 +9,7 @@
     </head>
 <body>
    
-    <form action="login" class="login-form" method="POST">
+    <form action="/login" class="login-form" method="POST">
         @csrf
         <h1>Login</h1>
         
