@@ -11,7 +11,7 @@
    
     <form action="/login" class="login-form" method="POST">
         @csrf
-        <h1>Staff Login</h1>
+        <h1>Login</h1>
         
         <div class="txtb">
             <i class="fa fa-user" aria-hidden="true"></i>
